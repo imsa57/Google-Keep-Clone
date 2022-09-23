@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.heading {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+    h1 {
+        width: 70%;
+        text-align: center;
+
+    }
+
+    div {
+        width: 30%;
+        align-items: center;
+
+        button {
+            background-color: yellow;
+            width: 60px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 3;
+        }
+    }
+}
+
+.notes {
+    display: inline-block;
+    margin: 40px 20px;
+    border: 1px solid red;
+    height: 175px;
+    width: 330px;
+    background-color: yellow;
+    border-radius: 20px;
+
+    textarea {
+        width: 92%;
+        height: 66%;
+        margin: 0px 12px;
+        // margin: 7px;
+        // height: 91%;
+
+    }
+
+    .main {
+        width: 92%;
+        height: 66%;
+        margin: 0px 12px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+    }
+}
+
+.operation {
+
+    display: block;
+    // width: 20%;
+    height: 30%;
+    float: right;
+
+    .edit {
+        display: inline-block;
+        background-color: greenyellow;
+        width: 40px;
+        height: 32px;
+        margin: 9px;
+    }
+
+    .delete {
+        display: inline-block;
+        background-color: red;
+        width: 40px;
+        height: 32px;
+        margin: 9px;
+    }
+
+}
